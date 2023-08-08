@@ -14,7 +14,7 @@ function App() {
         </p>
         <BrPage configuration={{
         path: `${window.location.pathname}${window.location.search}`,
-          endpoint: 'https://developers.bloomreach.io/delivery/site/v1/channels/first-example-channel/pages',
+          endpoint: 'https://developers.bloomreach.io/delivery/site/v1/channels/getting-started/pages',
           httpClient: axios
         }} mapping={{ ContentPage }}>
         </BrPage>
